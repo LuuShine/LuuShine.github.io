@@ -1,10 +1,8 @@
 ---
 title: "AI 评测 Rubric 与 Benchmark 构建平台"
-excerpt: "面向文本、图像、视频与多模态任务的评测方案构建工具。<br/><img src='/images/ai-evaluation-platform.jpg' alt='AI 评测 Rubric 与 Benchmark 构建平台封面'>"
+excerpt: "面向文本、图像、视频与多模态任务的评测方案构建工具。"
 collection: portfolio
 ---
-
-![AI 评测 Rubric 与 Benchmark 构建平台封面](/images/ai-evaluation-platform.jpg)
 
 这是一个面向 AI 产品经理与模型评测人员的 Rubric、Benchmark 构建平台，由我独立完成产品设计与开发。
 
