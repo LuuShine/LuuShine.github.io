@@ -23,7 +23,7 @@ repository               : "LuuShine/LuuShine.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile-panda.png"
   name             : "卢山"
   pronouns         : # example: "she/her"  
   bio              : "AI 产品｜模型评测｜Agent 应用"
