@@ -1,64 +1,57 @@
 ---
 layout: archive
-title: "CV"
+title: "个人简历"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+你可以在这里查看或下载我的 [PDF 简历](/files/Lu-Shan-CV.pdf)。
 
-Education
+个人概况
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- **姓名**：卢山
+- **职业方向**：AI 产品、模型评测、Agent 应用
+- **邮箱**：[1967592475@qq.com](mailto:1967592475@qq.com)
+- **GitHub**：[LuuShine](https://github.com/LuuShine)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+教育背景
+======
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- **浙江大学**｜人工智能学院｜工业设计工程硕士｜2024.09 – 2027.06（预计）
+- **重庆邮电大学**｜自动化学院｜机器人工程学士｜2019.06 – 2023.06
 
-Publications
+工作经历
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+
+### 字节跳动 · 中国交易与广告 · 即创 AI
+
+**AI 产品实习生｜2026.05 – 至今**
+
+- 设计 10 余个多模态模型评测集，支持 Seedance、Minimax 等模型的选型和版本迭代。
+- 建立覆盖 100 余个标签的 AIGC 成片问题归因体系。
+- 将高频评测流程沉淀为 6 个 Skill，把单次数据准备时间从约 3 小时缩短至 30 分钟。
+
+### 海康威视 · 科学仪器业务部
+
+**工业算法产品实习生｜2025.09 – 2026.02**
+
+- 重构光谱建模平台核心流程，支持产品在 4 个工业现场交付。
+- 协同算法工程师完善数据预处理与光谱范围选择能力。
+- 产出 7 份海外 To B 科学仪器竞品报告。
+
+代表项目
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+
+- **多场景 AIGC 音频内容生成平台**：独立完成产品设计与开发，覆盖 6 类内容场景，长音频可用率提升 21%，优质率提升 7%。
+- **Multi-Agent 与 RAG 党史审核系统**：构建千万字规模知识库并设计 4 个专项智能体，系统落地 50 余家场馆，展板平均错误数量降低 81%。
+
+能力与工具
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+- **AI 产品**：需求分析、PRD、竞品研究、模型 Benchmark、Prompt、Agent 工作流
+- **数据分析**：SQL、Python、Excel、SPSS
+- **产品设计**：Figma、Pixso、XMind
+- **AI Native 开发**：Claude Code、Codex、Trae、Vibe Coding

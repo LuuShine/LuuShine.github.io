@@ -1,7 +1,17 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "多场景 AIGC 音频内容生成平台"
+excerpt: "覆盖六类内容场景的 AI 脚本与音频生成工作流，支持模型动态路由、中文音色和长音频导出。"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+这是一个面向真实创作场景的 Web 端 AI 音频生成平台，由我独立完成产品设计与开发。
+
+核心能力包括：
+
+- 覆盖微课、有声剧、播客、恐怖故事、脱口秀和冥想六类场景。
+- 支持主题创作、原文改写和直接配音三种工作方式。
+- 根据场景配置脚本结构、角色数量、情绪、语速、停顿和音色。
+- 接入多种文本模型并采用质量优先的动态路由策略。
+- 支持长音频分段生成，以及 MP3、WAV、ZIP、TXT、Markdown 和 JSON 导出。
+
+针对情绪表现、多音字、音色一致性和长音频稳定性进行专项优化后，长音频可用率提升 21%，优质率提升 7%。
