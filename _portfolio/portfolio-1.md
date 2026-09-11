@@ -2,9 +2,12 @@
 title: "多场景 AIGC 音频内容生成平台"
 excerpt: "覆盖六类内容场景的 AI 脚本与音频生成工作流，支持模型动态路由、中文音色和长音频导出。"
 collection: portfolio
+repository_url: "https://github.com/LuuShine/narrator-studio"
 ---
 
 这是一个面向真实创作场景的 Web 端 AI 音频生成平台，由我独立完成产品设计与开发。
+
+<a class="btn btn--primary" href="https://github.com/LuuShine/narrator-studio" target="_blank" rel="noopener noreferrer">查看 GitHub 仓库 →</a>
 
 核心能力包括：
 

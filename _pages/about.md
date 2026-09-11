@@ -53,11 +53,21 @@ redirect_from:
 
 项目针对维度重复、权重失衡、样例偏题和评分边界模糊等问题，引入本地启发式校验，并支持稳定回归集、真实分布集和专项挑战集的通用评测方法。
 
+<a class="btn btn--primary" href="https://github.com/LuuShine/rubric-workbench" target="_blank" rel="noopener noreferrer">查看 Rubric Workbench 仓库 →</a>
+
 ### 多场景 AIGC 音频内容生成平台
 
 独立完成产品设计与开发，覆盖微课、有声剧、播客、恐怖故事、脱口秀和冥想 6 类场景。通过场景化 Prompt、TTS 参数预设和质量优先的动态模型路由，实现从脚本创作到音频合成、编辑和导出的完整工作流。
 
 项目针对情绪平淡、多音字、音色不一致和长音频稳定性等问题进行定向优化，长音频可用率提升 21%，优质率提升 7%。
+
+<a class="btn btn--primary" href="https://github.com/LuuShine/narrator-studio" target="_blank" rel="noopener noreferrer">查看 Narrator Studio 仓库 →</a>
+
+### AI 产品经理面试教练 Skill
+
+Personal AI PM Coach 面向 AI / AIGC 产品经理面试准备，提供 AI 知识辅导、模拟面试、面试复盘和项目素材梳理四种模式。以回答思路、追问练习和复盘笔记帮助用户持续改进，岗位 JD 可作为可选背景。
+
+<a class="btn btn--primary" href="https://github.com/LuuShine/personal-ai-pm-coach" target="_blank" rel="noopener noreferrer">查看 Personal AI PM Coach 仓库 →</a>
 
 ### 基于 Multi-Agent 与 RAG 的党史审核系统
 
