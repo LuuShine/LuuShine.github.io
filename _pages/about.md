@@ -14,7 +14,7 @@ redirect_from:
 
 我既关注模型效果，也关注它能否真正解决用户问题、稳定进入业务链路，并持续通过数据完成迭代。
 
-[下载个人简历](/files/Lu-Shan-CV.pdf) / [Email](mailto:1967592475@qq.com) / [GitHub](https://github.com/LuuShine)
+<div class="hero-actions"><a class="button primary" href="#resume-projects">查看我的作品 <span aria-hidden="true">↓</span></a><a class="button secondary" href="/files/Lu-Shan-CV.pdf">下载简历 <span aria-hidden="true">↗</span></a><a class="button secondary" href="mailto:1967592475@qq.com">联系我 <span aria-hidden="true">↗</span></a></div>
 
 我能做什么
 ---
@@ -45,8 +45,7 @@ redirect_from:
 - 协同算法工程师扩展数据预处理策略，设计光谱范围选择等功能，提升动态环境下模型的准确性与鲁棒性。
 - 深度调研海外 To B 科学仪器产品，产出 7 份竞品报告，并沉淀可复用的 AI 协同调研方法。
 
-代表项目
----
+<h2 id="resume-projects">代表项目</h2>
 
 ### AI 评测 Rubric 与 Benchmark 构建平台
 
@@ -54,7 +53,7 @@ redirect_from:
 
 项目针对维度重复、权重失衡、样例偏题和评分边界模糊等问题，引入本地启发式校验，并支持稳定回归集、真实分布集和专项挑战集的通用评测方法。
 
-<p class="resume-project-links"><a href="/portfolio/portfolio-3/">项目详情 →</a><a href="https://github.com/LuuShine/rubric-workbench" target="_blank" rel="noopener noreferrer">GitHub 源码 ↗</a></p>
+<p class="resume-project-links"><a class="button primary" href="/portfolio/portfolio-3/">项目详情 <span aria-hidden="true">→</span></a><a class="button secondary" href="https://github.com/LuuShine/rubric-workbench" target="_blank" rel="noopener noreferrer">GitHub 源码 <span aria-hidden="true">↗</span></a></p>
 
 ### 多场景 AIGC 音频内容生成平台
 
@@ -62,13 +61,13 @@ redirect_from:
 
 项目针对情绪平淡、多音字、音色不一致和长音频稳定性等问题进行定向优化，长音频可用率提升 21%，优质率提升 7%。
 
-<p class="resume-project-links"><a href="/portfolio/portfolio-1/">项目详情 →</a><a href="https://github.com/LuuShine/narrator-studio" target="_blank" rel="noopener noreferrer">GitHub 源码 ↗</a></p>
+<p class="resume-project-links"><a class="button primary" href="/portfolio/portfolio-1/">项目详情 <span aria-hidden="true">→</span></a><a class="button secondary" href="https://github.com/LuuShine/narrator-studio" target="_blank" rel="noopener noreferrer">GitHub 源码 <span aria-hidden="true">↗</span></a></p>
 
 ### AI 产品经理面试教练 Skill
 
 Personal AI PM Coach 面向 AI / AIGC 产品经理面试准备，提供 AI 知识辅导、模拟面试、面试复盘和项目素材梳理四种模式。以回答思路、追问练习和复盘笔记帮助用户持续改进，岗位 JD 可作为可选背景。
 
-<p class="resume-project-links"><a href="/portfolio/portfolio-4/">项目详情 →</a><a href="https://github.com/LuuShine/personal-ai-pm-coach" target="_blank" rel="noopener noreferrer">GitHub 源码 ↗</a></p>
+<p class="resume-project-links"><a class="button primary" href="/portfolio/portfolio-4/">项目详情 <span aria-hidden="true">→</span></a><a class="button secondary" href="https://github.com/LuuShine/personal-ai-pm-coach" target="_blank" rel="noopener noreferrer">GitHub 源码 <span aria-hidden="true">↗</span></a></p>
 
 ### 基于 Multi-Agent 与 RAG 的党史审核系统
 

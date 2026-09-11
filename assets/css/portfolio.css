@@ -522,12 +522,8 @@ img{display:block;
   border-top: 1px solid var(--line);
   padding-top: 16px;
 }
-.resume-contact a {
-  padding-block: 5px;
-  color: var(--blue);
-  width: fit-content;
-}
-.resume-contact span { margin-left: 8px; }
+.resume-contact a:not(.button) { padding-block: 5px; color: var(--blue); width: fit-content; }
+.resume-contact a:not(.button) span { margin-left: 8px; }
 .resume-main { min-width: 0; }
 .resume-title h1 {
   font-size: 30px;
@@ -547,6 +543,11 @@ img{display:block;
 .resume-prose li { margin-block: 8px; }
 .resume-prose ul { padding-left: 22px; }
 .resume-project-links { display: flex; flex-wrap: wrap; gap: 12px 26px; font-size: 14px; }
+.resume-prose a:not(.button) { color: var(--blue); text-decoration: underline; text-underline-offset: 3px; }
+.resume-prose a.button { text-decoration: none; }
+.resume-prose a.button.primary { color: white; }
+.resume-prose a.button.secondary { color: var(--ink); }
+.resume-prose a.button.secondary:hover { color: var(--blue); }
 @media (max-width: 1000px) {
   .resume-layout { grid-template-columns: 190px minmax(0, 1fr); gap: 36px; }
   .resume-title h1 { font-size: 27px; }
