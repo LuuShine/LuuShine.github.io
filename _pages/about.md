@@ -1,0 +1,93 @@
+---
+layout: resume-home
+permalink: /
+title: "卢山｜AI 产品与模型评测"
+author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
+---
+
+你好，我是卢山，目前就读于浙江大学人工智能学院，专业方向为工业设计工程。
+
+我专注于 **AI 产品、模型评测与 Agent 应用**，擅长从业务目标出发，将模型能力拆解为可衡量的评测标准、可执行的产品方案和可复用的工作流。
+
+我既关注模型效果，也关注它能否真正解决用户问题、稳定进入业务链路，并持续通过数据完成迭代。
+
+[下载个人简历](/files/Lu-Shan-CV.pdf) / [Email](mailto:1967592475@qq.com) / [GitHub](https://github.com/LuuShine)
+
+我能做什么
+---
+
+- **模型评测与选型**：围绕业务场景构建 Benchmark、评分标准和问题归因体系，识别模型能力边界，为模型选型和版本迭代提供依据。
+- **AI 产品设计**：完成需求分析、竞品研究、产品方案、PRD 和交互原型，将复杂算法能力转化为清晰易用的功能。
+- **Agent 工作流搭建**：设计 Prompt、RAG、Multi-Agent 和自动化 Skill，打通数据处理、内容生成、质量验证与结果交付。
+- **数据分析与验证**：使用 SQL、Python、Excel 和 SPSS 处理数据，通过指标和实验验证产品效果。
+
+工作经历
+---
+
+### 字节跳动 · 中国交易与广告 · 即创 AI
+
+**AI 产品实习生｜2026.05 – 至今**
+
+- 负责 Seedance、Minimax 等主流多模态模型评测，围绕敏捷、行业和长尾场景设计 10 余个评测集，为算法与业务团队的模型选型提供决策依据。
+- 搭建覆盖真实性、指令遵循、一致性、音画匹配和表现力的评测标准，并建立包含 100 余个标签的 AIGC 成片问题归因体系。
+- 主导即创、小云雀、LibTV、Flova 等产品的端到端评测与竞品分析，单月识别 10 余个跨链路产品问题并推动进入需求池。
+- 参与评测平台建设，梳理评测集管理、数据预处理、任务执行和统计分析等核心能力，推动评测流程平台化。
+- 将高频评测流程沉淀为 6 个可复用 Skill，把单次端到端评测的数据准备时间从约 3 小时缩短至 30 分钟。
+
+### 海康威视 · 科学仪器业务部
+
+**工业算法产品实习生｜2025.09 – 2026.02**
+
+- 根据试点客户反馈重构光谱建模平台，将复杂流程整合为“光谱预览、智能建模、定量分析”三项核心功能，支持产品在 4 个工业现场交付。
+- 协同算法工程师扩展数据预处理策略，设计光谱范围选择等功能，提升动态环境下模型的准确性与鲁棒性。
+- 深度调研海外 To B 科学仪器产品，产出 7 份竞品报告，并沉淀可复用的 AI 协同调研方法。
+
+代表项目
+---
+
+### AI 评测 Rubric 与 Benchmark 构建平台
+
+独立完成产品设计与开发，支持文本、图像、视频和多模态模型评测。通过场景化 Prompt、结构化 Rubric 生成、Benchmark 分层设计和参考资料解析，实现从评测任务定义、评分标准构建到质量校验与方案导出的完整工作流。
+
+项目针对维度重复、权重失衡、样例偏题和评分边界模糊等问题，引入本地启发式校验，并支持稳定回归集、真实分布集和专项挑战集的通用评测方法。
+
+<p class="resume-project-links"><a href="/portfolio/portfolio-3/">项目详情 →</a><a href="https://github.com/LuuShine/rubric-workbench" target="_blank" rel="noopener noreferrer">GitHub 源码 ↗</a></p>
+
+### 多场景 AIGC 音频内容生成平台
+
+独立完成产品设计与开发，覆盖微课、有声剧、播客、恐怖故事、脱口秀和冥想 6 类场景。通过场景化 Prompt、TTS 参数预设和质量优先的动态模型路由，实现从脚本创作到音频合成、编辑和导出的完整工作流。
+
+项目针对情绪平淡、多音字、音色不一致和长音频稳定性等问题进行定向优化，长音频可用率提升 21%，优质率提升 7%。
+
+<p class="resume-project-links"><a href="/portfolio/portfolio-1/">项目详情 →</a><a href="https://github.com/LuuShine/narrator-studio" target="_blank" rel="noopener noreferrer">GitHub 源码 ↗</a></p>
+
+### AI 产品经理面试教练 Skill
+
+Personal AI PM Coach 面向 AI / AIGC 产品经理面试准备，提供 AI 知识辅导、模拟面试、面试复盘和项目素材梳理四种模式。以回答思路、追问练习和复盘笔记帮助用户持续改进，岗位 JD 可作为可选背景。
+
+<p class="resume-project-links"><a href="/portfolio/portfolio-4/">项目详情 →</a><a href="https://github.com/LuuShine/personal-ai-pm-coach" target="_blank" rel="noopener noreferrer">GitHub 源码 ↗</a></p>
+
+### 基于 Multi-Agent 与 RAG 的党史审核系统
+
+参与浙江省文物局与浙江大学联合项目，构建以 86 本权威党史书籍为核心、千万字规模的结构化知识库，并通过布局解析与 OCR 完成 9,576 张复杂排版展板的文本提取。
+
+设计由 4 个专项智能体组成的内容审核流程，系统落地全省 50 余家场馆后，展板平均错误数量降低 81%。
+
+教育背景
+---
+
+- **浙江大学**｜人工智能学院｜工业设计工程硕士｜2024.09 – 2027.06（预计）
+- **重庆邮电大学**｜自动化学院｜机器人工程学士｜2019.06 – 2023.06
+
+能力与工具
+---
+
+- **AI 产品**：需求分析、PRD、竞品研究、模型 Benchmark、Prompt 与 Agent 工作流
+- **数据分析**：SQL、Python、Excel、SPSS
+- **产品设计**：Figma、Pixso、XMind、信息架构与交互原型
+- **AI Native 开发**：Claude Code、Codex、Trae、Vibe Coding
+
+我希望继续从事 AI 产品与模型评测相关工作，把模型能力转化为稳定、可解释、能产生真实业务价值的产品。

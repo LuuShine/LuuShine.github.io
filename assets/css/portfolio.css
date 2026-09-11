@@ -486,3 +486,80 @@ img{display:block;
 *,*::before,*::after{transition:none!important;
   animation:none!important}
 }
+
+/* Resume-style homepage: profile at left, full experience at right. */
+.resume-layout {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 64px;
+  align-items: start;
+  padding-block: 52px 72px;
+}
+.resume-sidebar {
+  position: sticky;
+  top: 32px;
+  color: var(--muted);
+  font-size: 14px;
+}
+.resume-sidebar > img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 22px;
+}
+.resume-identity h2 {
+  color: var(--ink);
+  font-size: 27px;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+.resume-direction { color: var(--ink); line-height: 1.9; }
+.resume-background { margin: 20px 0; line-height: 1.9; }
+.resume-contact {
+  display: grid;
+  gap: 6px;
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+}
+.resume-contact a {
+  padding-block: 5px;
+  color: var(--blue);
+  width: fit-content;
+}
+.resume-contact span { margin-left: 8px; }
+.resume-main { min-width: 0; }
+.resume-title h1 {
+  font-size: 30px;
+  line-height: 1.45;
+  letter-spacing: -.025em;
+  margin-bottom: 24px;
+}
+.resume-prose { line-height: 1.9; }
+.resume-prose > p:first-child { margin-top: 0; }
+.resume-prose h2 {
+  font-size: 24px;
+  margin-top: 36px;
+  padding-bottom: 10px;
+  border-bottom-color: var(--line);
+}
+.resume-prose h3 { font-size: 19px; margin-top: 26px; }
+.resume-prose li { margin-block: 8px; }
+.resume-prose ul { padding-left: 22px; }
+.resume-project-links { display: flex; flex-wrap: wrap; gap: 12px 26px; font-size: 14px; }
+@media (max-width: 1000px) {
+  .resume-layout { grid-template-columns: 190px minmax(0, 1fr); gap: 36px; }
+  .resume-title h1 { font-size: 27px; }
+}
+@media (max-width: 720px) {
+  .resume-layout { display: block; padding-block: 30px 40px; }
+  .resume-sidebar { position: static; display: grid; grid-template-columns: 76px minmax(0, 1fr); column-gap: 18px; padding-bottom: 26px; margin-bottom: 30px; border-bottom: 1px solid var(--line); }
+  .resume-sidebar > img { width: 76px; height: 76px; margin: 0; }
+  .resume-identity h2 { font-size: 23px; margin-bottom: 5px; }
+  .resume-direction { font-size: 14px; }
+  .resume-background { grid-column: 1 / -1; margin: 16px 0 12px; }
+  .resume-contact { grid-column: 1 / -1; display: flex; gap: 12px 22px; flex-wrap: wrap; border: 0; padding: 0; }
+  .resume-title h1 { font-size: 25px; margin-bottom: 20px; }
+  .resume-prose h2 { font-size: 22px; margin-top: 30px; }
+  .resume-prose h3 { font-size: 18px; }
+}

@@ -1,0 +1,19 @@
+---
+layout: portfolio-shell
+---
+<div class="container resume-layout">
+  <aside class="resume-sidebar" aria-label="个人信息">
+    <img src="{{ '/images/profile-panda.png' | relative_url }}" alt="卢山的头像" width="120" height="120" fetchpriority="high">
+    <div class="resume-identity"><h2>卢山</h2><p class="resume-direction">AI 产品 · 模型评测<br>Agent 应用</p></div>
+    <div class="resume-background"><p>浙江大学 · 人工智能学院</p><p>工业设计工程硕士在读</p><p>杭州，中国</p></div>
+    <nav class="resume-contact" aria-label="个人链接">
+      <a href="{{ '/files/Lu-Shan-CV.pdf' | relative_url }}">下载个人简历 <span aria-hidden="true">↗</span></a>
+      <a href="mailto:1967592475@qq.com">Email <span aria-hidden="true">↗</span></a>
+      <a href="https://github.com/LuuShine" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </nav>
+  </aside>
+  <article class="resume-main">
+    <header class="resume-title"><h1>{{ page.title }}</h1></header>
+    <div class="prose resume-prose">{{ content }}</div>
+  </article>
+</div>
