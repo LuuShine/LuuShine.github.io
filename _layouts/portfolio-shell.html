@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% include seo.html %}
+  <meta name="theme-color" content="#f8fafc">
+  <link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}">
+</head>
+<body class="folio">
+  <a class="skip-link" href="#content">跳转到正文</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="卢山的个人主页">卢山<span>LUU SHINE</span></a>
+      <nav aria-label="主导航">
+        <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>首页</a>
+        <a href="{{ '/portfolio/' | relative_url }}"{% if page.url contains '/portfolio' %} aria-current="page"{% endif %}>作品</a>
+        <a href="{{ '/cv/' | relative_url }}"{% if page.url == '/cv/' %} aria-current="page"{% endif %}>简历</a>
+        <a class="nav-contact" href="mailto:1967592475@qq.com">联系我 <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="content" tabindex="-1">{{ content }}</main>
+  <footer class="site-footer container">
+    <a class="wordmark" href="{{ '/' | relative_url }}">卢山<span>AI 产品 · 模型评测 · Agent</span></a>
+    <div><a href="https://github.com/LuuShine" target="_blank" rel="noopener noreferrer">GitHub ↗</a><span>杭州，中国</span></div>
+  </footer>
+</body>
+</html>

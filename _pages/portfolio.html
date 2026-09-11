@@ -1,13 +1,11 @@
 ---
-layout: archive
-title: "项目"
+layout: portfolio-shell
+title: "作品｜卢山"
 permalink: /portfolio/
-author_profile: true
+description: "AI 音频创作、模型评测、面试教练 Skill 与 Multi-Agent 审核系统。"
 ---
-
-{% include base_path %}
-
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="container projects-page">
+  <header class="page-intro"><p class="eyebrow">PROJECTS</p><h1>围绕真实问题，构建 AI 产品。</h1><p>从个人开发到产学研实践，探索模型能力如何进入具体场景。选择项目查看设计思路、核心能力与开源代码。</p></header>
+  {% include selected-work.html %}
+  <a class="research-link" href="{{ '/portfolio/portfolio-2/' | relative_url }}"><div><span class="eyebrow">04 / MULTI-AGENT + RAG · 产学研合作</span><h3>基于 Multi-Agent 与 RAG 的党史审核系统</h3><p>从权威知识库、复杂展板 OCR，到专项智能体审核。已落地全省 50 余家场馆。</p></div><span class="research-arrow" aria-hidden="true">↗</span></a>
+</div>

@@ -1,0 +1,41 @@
+---
+layout: portfolio-shell
+permalink: /
+title: "卢山｜AI 产品与模型评测"
+description: "卢山的作品集：AI 产品设计、模型评测与 Agent 应用。查看 Narrator Studio、Rubric Workbench 和开源 Skill。"
+redirect_from:
+  - /about/
+  - /about.html
+---
+<div class="container">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <p class="eyebrow">你好，我是卢山</p>
+      <h1 id="hero-title">从模型能力，<br>到<span>真正可用的产品。</span></h1>
+      <p class="hero-description">专注 AI 产品、模型评测与 Agent 应用。<br class="desktop-break">把业务问题拆清楚，把模型效果测明白，再把方案做出来。</p>
+      <div class="hero-actions"><a class="button primary" href="#selected-work">查看我的作品 <span aria-hidden="true">↓</span></a><a class="button secondary" href="{{ '/files/Lu-Shan-CV.pdf' | relative_url }}">下载简历 <span aria-hidden="true">↗</span></a></div>
+    </div>
+    <aside class="hero-profile" aria-label="个人背景">
+      <img src="{{ '/images/profile-panda.png' | relative_url }}" alt="卢山的熊猫头像" width="84" height="84" fetchpriority="high">
+      <p class="profile-name">卢山 <span>LU SHAN</span></p>
+      <p>浙江大学 · 人工智能学院<br>工业设计工程硕士在读</p>
+      <div class="profile-focus"><span>当前关注</span><p>AI 产品设计<br>多模态模型评测<br>Agent 与自动化工作流</p></div>
+      <a class="text-link" href="mailto:1967592475@qq.com">聊聊项目与机会 ↗</a>
+    </aside>
+  </section>
+  <section class="work-section section" id="selected-work" aria-labelledby="work-title">
+    <div class="section-heading"><div><p class="eyebrow">SELECTED WORK</p><h2 id="work-title">把想法做成作品</h2></div><a class="text-link" href="{{ '/portfolio/' | relative_url }}">全部项目 <span aria-hidden="true">→</span></a></div>
+    {% include selected-work.html %}
+  </section>
+  <section class="section experience-section" aria-labelledby="experience-title">
+    <div class="section-heading"><div><p class="eyebrow">EXPERIENCE</p><h2 id="experience-title">在真实业务里验证</h2></div><a class="text-link" href="{{ '/cv/' | relative_url }}">完整经历 <span aria-hidden="true">→</span></a></div>
+    <div class="experience-row"><div class="experience-meta"><span>2026.05 — 至今</span><h3>字节跳动</h3><p>AI 产品实习生 · 即创 AI</p></div><div class="experience-content"><p>围绕多模态模型与 AIGC 成片，设计评测集、评分标准和问题归因体系，推动评测流程平台化。</p><div class="outcomes"><div><strong>10<span>余个</span></strong><span>场景评测集</span></div><div><strong>3h <em>→</em> 30min</strong><span>单次评测数据准备时间</span></div></div></div></div>
+    <div class="experience-row"><div class="experience-meta"><span>2025.09 — 2026.02</span><h3>海康威视</h3><p>工业算法产品实习生</p></div><div class="experience-content"><p>根据试点反馈重构光谱建模平台，将复杂算法流程整合为光谱预览、智能建模、定量分析三项核心功能。</p><div class="outcomes"><div><strong>4<span>个</span></strong><span>工业现场交付</span></div><div><strong>7<span>份</span></strong><span>海外竞品研究报告</span></div></div></div></div>
+    <a class="research-link" href="{{ '/portfolio/portfolio-2/' | relative_url }}"><div><span class="eyebrow">产学研项目 · 浙江省文物局 × 浙江大学</span><h3>用 Multi-Agent 与 RAG，辅助党史内容审核</h3><p>落地全省 50 余家场馆，展板平均错误数量降低 81%。</p></div><span class="research-arrow" aria-hidden="true">↗</span></a>
+  </section>
+  <section class="section" aria-labelledby="approach-title">
+    <div class="section-heading"><div><p class="eyebrow">HOW I WORK</p><h2 id="approach-title">从问题出发，用结果验证</h2></div></div>
+    <div class="capabilities"><div><span>01</span><h3>定义问题</h3><p>从用户与业务目标出发，做需求分析、竞品研究与产品方案。</p><small>需求分析 / PRD / Figma</small></div><div><span>02</span><h3>评估能力</h3><p>建立场景化评测标准，识别模型边界，让选型与迭代有据可依。</p><small>Benchmark / Rubric / 数据分析</small></div><div><span>03</span><h3>构建与迭代</h3><p>用 Prompt、RAG 和 Agent 串联工作流，在实际使用中持续改进。</p><small>Python / Agent / AI 辅助开发</small></div></div>
+  </section>
+  <section class="contact-section" aria-labelledby="contact-title"><div><p class="eyebrow">LET’S CONNECT</p><h2 id="contact-title">一起做点真正有用的 AI 产品。</h2><p>欢迎交流 AI 产品、模型评测，以及新的合作机会。</p></div><a class="button primary" href="mailto:1967592475@qq.com">联系我 <span aria-hidden="true">↗</span></a></section>
+</div>

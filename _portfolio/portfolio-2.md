@@ -1,6 +1,7 @@
 ---
 title: "基于 Multi-Agent 与 RAG 的党史审核系统"
 excerpt: "面向文博场馆的智能内容审核系统，已落地全省 50 余家场馆，展板平均错误数量降低 81%。"
+layout: project
 collection: portfolio
 ---
 

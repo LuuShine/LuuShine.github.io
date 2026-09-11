@@ -1,6 +1,9 @@
 ---
 title: "AI 评测 Rubric 与 Benchmark 构建平台"
 excerpt: "面向文本、图像、视频与多模态任务的评测方案构建工具。"
+layout: project
+project_image: /images/projects/rubric-workbench.webp
+image_alt: Rubric Workbench 评测任务与规则编辑工作台
 collection: portfolio
 repository_url: "https://github.com/LuuShine/rubric-workbench"
 ---

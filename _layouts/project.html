@@ -1,0 +1,12 @@
+---
+layout: portfolio-shell
+---
+<article class="container document">
+  <header class="page-intro">
+    <a class="back-link" href="{{ '/portfolio/' | relative_url }}">← 全部作品</a>
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.excerpt | strip_html }}</p>
+  </header>
+  {% if page.project_image %}<img class="detail-image" src="{{ page.project_image | relative_url }}" alt="{{ page.image_alt | escape }}" width="1265" height="712" decoding="async">{% endif %}
+  <div class="prose">{{ content }}</div>
+</article>

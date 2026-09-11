@@ -1,6 +1,7 @@
 ---
 title: "AI 产品经理面试教练 Skill"
 excerpt: "支持 AI 知识辅导、模拟面试、面试复盘和项目素材梳理的 Personal AI PM Coach。"
+layout: project
 collection: portfolio
 repository_url: "https://github.com/LuuShine/personal-ai-pm-coach"
 ---
